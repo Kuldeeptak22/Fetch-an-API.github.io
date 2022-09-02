@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(176, 176, 179);
+    box-sizing: border-box;
+}
+.container{
+    margin: 5rem auto;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-items: center;
+    align-items: center;
+    
+}
+.container.btn-group{
+    position: absolute;
+    top: 20%;
+    }
+    .btn-group button{
+        background-color: brown;
+        color: aliceblue;
+        border: none;
+        padding: 5px 40px;
+        margin: 2px;
+        font-size: 2rem;
+    }
+    .btn-group button:hover{
+        scale: 100%;
+        background-color: red;
+    }
+.container.detail{
+    color: white;
+}
